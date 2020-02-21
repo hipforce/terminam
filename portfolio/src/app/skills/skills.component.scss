@@ -1,0 +1,140 @@
+.aller {
+  position: fixed;
+  font-family: "Montserrat", sans-serif;
+  top: 10em;
+  left: -7em;
+}
+
+.headbar {
+  margin-top: 3em;
+  margin-left: 10%;
+  height: 1.6em;
+  width: 40em;
+  //background-color: #57606f;
+  background-color: #2f3640;
+  -webkit-box-shadow: -5px 5px 8px 2px rgba(0, 0, 0, 0.27);
+  box-shadow: -5px 5px 8px 2px rgba(0, 0, 0, 0.27);
+  border-radius: 12px 12px 0 0;
+}
+
+.menu-button {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  width: 13px;
+  height: 13px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #4cd137;
+  transition: 0.2s;
+}
+
+.green:hover {
+  -webkit-box-shadow: 0 0 9px 4px #4cd137 inset, 0 0 16px 1px #4cd137;
+  box-shadow: 0 0 9px 4px #4cd137 inset, 0 0 16px 1px #4cd137;
+  transition: 0.2s;
+}
+
+.red {
+  background-color: #e84118;
+  transition: 0.2s;
+}
+
+.red:hover {
+  -webkit-box-shadow: 0 0 9px 4px #e84117 inset, 0 0 16px 1px #e84117;
+  box-shadow: 0 0 9px 4px #e84117 inset, 0 0 16px 1px #e84117;
+  transition: 0.2s;
+}
+
+.orange {
+  transition: 0.2s;
+  background-color: #f0932b;
+}
+
+.orange:hover {
+  transition: 0.2s;
+  -webkit-box-shadow: 0 0 9px 4px #f0932b inset, 0 0 16px 1px #f0932b;
+  box-shadow: 0 0 9px 4px #f0932b inset, 0 0 16px 1px #f0932b;
+}
+
+.orange-text {
+  color: #f0932b;
+}
+
+.blue-text {
+  color: #3498db;
+}
+
+.green-text {
+  color: #1dd1a1;
+}
+
+.red-text {
+  color: #e84117;
+}
+
+.terminal-title {
+  display: inline-block;
+  font-style: italic;
+  margin-left: 36%;
+  color: #a4b0be;
+}
+
+.content {
+  margin-left: 10%;
+  height: 430px;
+  width: 40em;
+  background-color: #2f3640;
+  -webkit-box-shadow: -5px 10px 8px 2px rgba(0, 0, 0, 0.27);
+  box-shadow: -5px 10px 8px 2px rgba(0, 0, 0, 0.27);
+}
+
+// interface
+
+.heading {
+  margin-left: 1em;
+}
+
+.values {
+  display: inline;
+  color: #3498db;
+}
+
+.graph {
+  display: inline;
+  color: white;
+  font-size: 15px;
+}
+
+.infos {
+  color: white;
+}
+
+.separation {
+  height: 1.2em;
+  width: 40em;
+  margin-left: 0em;
+  margin-top: -10em;
+}
+
+.first-one {
+  background-color: #1dd1a1;
+}
+
+.second-one {
+    background-color: #3498db;
+}
+
+.sep-item {
+}
+
+.other-one {
+    color: white!important;
+}
+
+.column {
+    margin-right: 4em;
+}
